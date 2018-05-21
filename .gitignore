@@ -1,3 +1,7 @@
+.DS_Store
+expressionValuesPerGene
+TablesForExploration
+
 # History files
 .Rhistory
 .Rapp.history
