@@ -10,4 +10,6 @@ This repository contains the code as used for the following sections:
     *  Definition of homoeolog expression bias categories
 3.  Classify genes by movement
     * Variation in homoeolog expression bias across tissues (Stable/Dynamic triads)
+4. Synthetic wheat calculate TPMs.ipynb
+    * Analysis of effect on polyploidy on homoeolog expression bias
 
