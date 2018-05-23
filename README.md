@@ -3,6 +3,34 @@ Methods for Transcriptome paper.
 
 This repository contains the code as used for the following sections:
 
+
+
+## Mapping and reference
+
+Philippa, but Ricardo could add the scripts that he used to re-run. 
+
+Filter: Ricardo
+
+## Homoeolog specific mapping by kallisto in nulli-tetrasomic lines
+
+Philippa
+
+## Theoretical read mapping accuracy between homoeologs using SNP distributions
+
+Ricardo? 
+
+## Genome of origin effect on gene expression
+Philippa 
+
+## Expression complexity
+Ricardo 
+
+## Expressed genes within the Azhurnaya developmental time course (209 samples) and Chinese Spring no stress (123 samples).
+    
+Details in Jupyter [notebook](01.%20Prepare%20TPM%20table.ipynb)  
+
+
+
 1. Prepare TPM Table 
     * Expressed genes within the Azhurnaya developmental time course (209 samples) and Chinese Spring no stress (123 samples).
 2. Calculate triad category
