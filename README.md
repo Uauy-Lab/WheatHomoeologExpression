@@ -9,11 +9,10 @@ All the input data for the scripts described can be found [here](https://opendat
 
 This repository contains the code as used for the following sections
 
+ <span style="display: none;">
 ### Mapping and reference
 
-Philippa, but Ricardo could add the scripts that he used to re-run. 
-
-Filter: Ricardo
+</span>
 
 ### Homoeolog specific mapping by kallisto in nulli-tetrasomic lines
 
@@ -22,16 +21,17 @@ Filter: Ricardo
 * [add dominance category to nullitetra 1:1:1 triad expression](scripts/nullitetra/3_add_dominance_category_to_1_1_1_triads.R)
 * [plot and stats for A vs B vs D for nullitetras and dominance categories](scripts/nullitetra/4_boxplot_1_1_1_triads_A_vs_D_vs_D_and_dominance_final_1tpm_threshold.R)
 
+ <span style="display: none;">
 ### Theoretical read mapping accuracy between homoeologs using SNP distributions
 
-Ricardo? 
+</span>
 
 ### Genome of origin effect on gene expression
 
 * [plot clustering of intermediate tissue expression, colour by genome of origin](scripts/genome_of_origin_effect/hclust_ABD_UPLOAD.r)
 
 ### Expression complexity
-Ricardo 
+Details in Jupyter [notebook](05.%20Cumulative%20expression.ipynb)  
 
 ### Expressed genes within the Azhurnaya developmental time course (209 samples) and Chinese Spring no stress (123 samples).
     
