@@ -9,22 +9,12 @@ All the input data for the scripts described can be found [here](https://opendat
 
 This repository contains the code as used for the following sections
 
- <span style="display: none;">
-### Mapping and reference
-
-</span>
-
 ### Homoeolog specific mapping by kallisto in nulli-tetrasomic lines
 
 * [plot heatmaps for nullitetra, all genes (not just triads)](scripts/nullitetra/1_plot_nullitetra_heatmap.R)
 * [get expression for nullitetras 1:1:1 triads](scripts/nullitetra/2_get_expression_nullitetra_1_1_1_triads.R)
 * [add dominance category to nullitetra 1:1:1 triad expression](scripts/nullitetra/3_add_dominance_category_to_1_1_1_triads.R)
 * [plot and stats for A vs B vs D for nullitetras and dominance categories](scripts/nullitetra/4_boxplot_1_1_1_triads_A_vs_D_vs_D_and_dominance_final_1tpm_threshold.R)
-
- <span style="display: none;">
-### Theoretical read mapping accuracy between homoeologs using SNP distributions
-
-</span>
 
 ### Genome of origin effect on gene expression
 
@@ -82,9 +72,6 @@ Details in Jupyter [notebook](02.%20Classify%20genes%20by%20movement)
 
 ### Variation in homoeolog expression bias across tissues (Stable/Dynamic triads).
 Details in Jupyter [notebook](04.%20Synthetic%20wheat%20calculate%20TPMs.ipynb)
-
-### Gene Ontology and Plant Ontology term enrichment
-Ricardo
 
 ### CDS, protein and promoter analysis for triads
 The scripts used for this section are in various repositories: 
