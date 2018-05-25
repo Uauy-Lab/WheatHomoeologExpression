@@ -1,5 +1,9 @@
 # WheatHomoeologExpression
 
+# Data 
+
+All the input data for the scripts described can be found [here](https://opendata.earlham.ac.uk/wheat/under_license/toronto/).
+
 
 ## Methods for Transcriptome paper. 
 
@@ -89,23 +93,24 @@ The scripts used for this section are in various repositories:
   * [Pairwise alignment of triads](https://github.com/TGAC/bioruby-polyploid-tools/blob/master/bin/blast_triads.rb)
 
 ### Transposable Element (TE) modeling using CLARITE
+
 Clarite is available [here](https://github.com/jdaron/CLARI-TE)
 
 ### TE presence in gene promoters
 
 * [Calculate sliding window of Transposable Element density upstream of genes](scripts/TEs/calculate_sliding_windows_TEs.r)
 * [Calculate average lengths and distances from start site of Transposable Elements including statistical tests](scripts/TEs/get_average_length_of_TEs_and_distance_to_ATG.r)
-* [Plot sliding window of Transposable Element density including statistical tests](scripts/TEs/plot_final_TE_density_graphs.r)
 * [Script for analysis of TE presence/absence based on homoeolog expression bias categories.](scripts/TEs/retro_presenceabsence_subsetting_analysis_dominancecategories_with1500_UPLOAD.R)
 * [Script for analysis of TE presence/absence based on homoeolog expression bias variation categories.](scripts/TEs/retro_presenceabsence_subsetting_analysis_movementcategories_with1500_UPLOAD.R)
-* [Script for analysis of TE family enrichment based on homoeolog expression bias variation categories.](scripts/TEs/TE_Family_Comparison_10-80-10_Movement_UPLOAD.R)
 
 
 ### Enrichment of TE families in gene promoters
-Jemima
+
+* [Script for analysis of TE family enrichment based on homoeolog expression bias variation categories.](scripts/TEs/TE_Family_Comparison_10-80-10_Movement_UPLOAD.R)
 
 ### TE density in gene promoters
-Jemima
+
+* [Plot sliding window of Transposable Element density including statistical tests](scripts/TEs/plot_final_TE_density_graphs.r)
 
 ### Transcription factor binding site (TFBS) identification
 
@@ -117,6 +122,7 @@ Jemima
 
 
 ### Ka/Ks analysis
+
  * [MAFFT alignment](https://github.com/TGAC/bioruby-polyploid- tools/blob/master/bin/mafft_triads.rb.)
  * [Script to obtain Chinese Spring No-Stress analysis of Ka/Ks ratios for syntenic 1:1:1 triads.](scripts/KaKs/kaks_chinesespring_UPLOAD.R)
  * [Script to obtain Azhurnaya development analysis of Ka/Ks ratios for syntenic 1:1:1 triads.](scripts/KaKs/kaks_developmentset_UPLOAD.R)
@@ -125,6 +131,7 @@ Jemima
 
 
 ### WGCNA Network construction 
+
 * [WGCNA combine studies filter normalise  samples for abiotic.R](scripts/WGCNA_network_construction/1_WGCNA_combine_studies_filter_normalise_cluster_abiotic.R)
 * [WGCNA combine studies filter normalise  samples for disease.R](scripts/WGCNA_network_construction/1_WGCNA_combine_studies_filter_normalise_cluster_disease.R)
 * [WGCNA combine studies filter normalise  samples for grain.R](scripts/WGCNA_network_construction/1_WGCNA_combine_studies_filter_normalise_cluster_grain.R)
@@ -173,5 +180,7 @@ Jemima
 
 * [find hub genes in abiotic network](scripts/hub_genes/find_hub_genes_abiotic.R)
 * [find hub genes in disease network](scripts/hub_genes/find_hub_genes_disease.R)
+
+
 
 
