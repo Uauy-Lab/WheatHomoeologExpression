@@ -2,7 +2,7 @@
 
 # Data 
 
-All the input data for the scripts described can be found [here](https://opendata.earlham.ac.uk/wheat/under_license/toronto/).
+All the input data for the scripts described can be found [here](https://opendata.earlham.ac.uk/wheat/under_license/toronto/Ramirez-Gonzalez_etal_2018-06025-Transcriptome-Landscape/).
 
 
 ## Methods for Transcriptome paper. 
