@@ -4,6 +4,8 @@
 
 All the input data for the scripts described can be found [here](https://opendata.earlham.ac.uk/wheat/under_license/toronto/Ramirez-Gonzalez_etal_2018-06025-Transcriptome-Landscape/).
 
+The data for the jupyter notebooks are [here](https://opendata.earlham.ac.uk/wheat/under_license/toronto/Ramirez-Gonzalez_etal_2018-06025-Transcriptome-Landscape/data/TablesForExploration/)
+
 
 ## Methods for Transcriptome paper. 
 
