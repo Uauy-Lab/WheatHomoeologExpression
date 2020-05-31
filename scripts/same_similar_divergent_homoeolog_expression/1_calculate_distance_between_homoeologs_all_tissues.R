@@ -5,6 +5,7 @@
 list_dirs <- c("tissues\\grain","tissues\\leaf","tissues\\root","tissues\\spike")
 list_names <- c("tissues\\grain" = "grain","tissues\\leaf" = "leaf","tissues\\root" = "root","tissues\\spike" = "spike")
 
+threshold_list <- numeric() # make list to store the mean of max distance between eigengenes for each tissue (needed to calculate max_threshold later in the script) ## added on 8.8.2019
 
 for (dir in list_dirs) {
   
@@ -33,6 +34,7 @@ min(distance_matrix)
 names(distance_matrix[,1])[1]
 mean(sort(distance_matrix[,3])[2:5])
 
+threshold_list <- rbind(threshold_list, mean(rowMaxs(distance_matrix)))  ## added on 8.8.2019
 
 # make empty for the for loop
 eigengene_dist <- numeric()
@@ -201,8 +203,9 @@ all_thresholds_mvmt
 
 # make vector with thresholds
 # 100 % threshold is 1.874862
-max_threshold <- 1.874862
-
+# max_threshold <- 1.874862 ## commented out on 8.8.2019 because the line below calculates this now for clarity
+max_threshold <- mean(threshold_list) ## added on 8.8.2019
+  
 medians <- seq(from=0, to=max_threshold, length.out=101)
 names(medians) <- seq(from=0, to=100, length.out=101)
 medians
